@@ -7,7 +7,7 @@ Widely adopted methods such as Reinforcement Learning from Human Feedback (RLHF)
 
 RLHF uses PPO (Proximal Policy Optimization).
 
-#PPO
+**PPO**
 
 Running code ppo.py gives us an idea of PPO clipping.
 
