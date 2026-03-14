@@ -1,4 +1,4 @@
-#Reinforcement Learning in LLM
+**Reinforcement Learning in LLM**
 
 There are different types of Reinforcement Learning techniques used in building LLMs.
 Widely adopted methods such as Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) finetune pre-trained models to follow instructions and reflect human preferences.
@@ -54,7 +54,7 @@ long text
 
 Let’s move on to GRPO now.
 
-#GRPO
+**GRPO**
 GRPO is an RL algorithm.
 For each prompt the model samples multiple responses and compares them.
 Example:
@@ -304,7 +304,7 @@ GRPO optimization
 
 Now let us then understand RLVR
 
-#RLVR
+**RLVR**
 RLVR = Reinforcement Learning with Verifiable Rewards.
 Instead of learning from human preferences, the model learns from objective correctness signals.
 Example tasks:
@@ -366,7 +366,7 @@ Compute rewards
 Compare them relative to each other
 
 
-#Why RLVR Produces Reasoning
+**Why RLVR Produces Reasoning**
 A surprising effect discovered with DeepSeek-R1-Zero:
 They trained a model using:
 RLVR
@@ -593,7 +593,7 @@ reasoning → higher correctness probability
 This phenomenon was reported in training of DeepSeek-R1-Zero.
 After all this, we missed something popular in the 2023 - DPO or Direct Policy Optimization
 
-#DPO
+**DPO**
 DPO was introduced due to the below problems of RLHF:
 Problems with RLHF
 The paper argues RLHF is overcomplicated:
